@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.m_Sallam.mahmoudmostafa.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/splash_ic"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash_ic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <!--suppress AndroidDomInspection -->
+        <activity
+            android:name="com.m_Sallam.mahmoudmostafa.myapplication.activities.Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.m_Sallam.mahmoudmostafa.myapplication.activities.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar"
+            tools:ignore="InnerclassSeparator"></activity>
+        <activity
+            android:name="com.m_Sallam.mahmoudmostafa.myapplication.activities.Detail"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar"
+            tools:ignore="InnerclassSeparator"></activity>
+
+        <provider
+            android:name="com.m_Sallam.mahmoudmostafa.myapplication.store.MoviesProvider"
+            android:authorities="example.mahmoudmostafa.myapplication.store.movies">
+
+        </provider>
+    </application>
+
+</manifest>

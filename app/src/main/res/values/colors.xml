@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRed">#bf3026</color>
+    <color name="colorGray">#3C3F41</color>
+    <color name="colorGreen">#2DB439</color>
+    <color name="voshia">#FF34BD</color>
+    <color name="page">#9449FF</color>
+    <color name="colorAccentSecondary">#ad1a7f</color>
+    <color name="viewBg">#f8f8f8</color>
+    <color name="btn_disabled">#999</color>
+    <color name="lbl_value">#222222</color>
+    <color name="duskYellow">#2DB439</color>
+    <color name="lightGrey">#999</color>
+
+
+</resources>
+
